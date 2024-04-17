@@ -131,8 +131,8 @@ function calculate()
     {number_of_days += 1;}
     
     let calculated_cost = cost_per_day * number_of_days;
-    console.log(calculated_cost)
-    document.getElementById('calculated-cost').innerHTML = calculated_cost
+    console.log(calculated_cost);
+    document.getElementById('calculated-cost').innerHTML = calculated_cost;
 }
 
-console.log(calculate)
+console.log(calculate);
